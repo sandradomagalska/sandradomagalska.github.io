@@ -1,0 +1,7 @@
+div{
+background-image: url("tort.jpg");
+background-position: top center;
+background-repeat: repeat;
+background-attachment: fixed;
+background-attachment: scroll;
+}

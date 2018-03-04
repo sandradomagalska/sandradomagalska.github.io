@@ -1,0 +1,9 @@
+#p1::before{
+   content:"przed elementem";
+    color: red
+#p2::after{
+   content:"po elementem";
+    color: pink
+#p3::firt-letter{
+   content:"pierwsza litera";
+    color: green

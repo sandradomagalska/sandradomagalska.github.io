@@ -1,0 +1,27 @@
+#p1{
+    color: blue;
+}
+#p1:target{
+    color:red;
+}
+a{
+    color:orange;
+}
+a:visited{
+    color:aquamarine;
+}
+#p3:target{
+    color: blue;
+:nth-child(5n+5) {
+    background:greeen;
+}
+     }
+.clients-list div:nth-child(odd) {
+     background-color: pink
+    }
+.clients-list div:nth-child(even) {
+     background-color: green;
+    }
+.clients-list div:nth-child(5n+4) {
+     background-color: blue;
+    }

@@ -1,0 +1,31 @@
+#box1 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    transition: red 5s ease-in-out 5s;
+}
+#box2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: green 5s ease-in-out 5s;
+}
+#box3 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transition: blue 5s ease-in-out 5s;
+}
+#box1:hover{
+    width: 300px;
+} 
+#box2:hover{
+    height: 300px;
+} 
+#box3:hover{
+    width: 300px;
+    height: 300px;
+} 

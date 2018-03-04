@@ -1,0 +1,5 @@
+#tort1 {float:left;
+}
+#tort2 {float:right;}
+p:last-child { clear: both; }
+    

@@ -1,0 +1,79 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: : #291f1a;
+    margin:0;
+    font-weight:300;
+}
+#main-nav{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+#main-nav ul{
+    margin:0;
+    float: right;
+    
+}
+#main-nav ul li{
+    display:inline-block;
+    padding:20px 40px;
+}
+#main-nav ul li a{
+    color:#1ac056;
+    text-decoration: none;
+}
+#main-header{
+background-image: url("img/header-background.jpg");
+background-size:cover;
+color: white;
+}
+#main-header .header-content{
+    padding: 30vh;
+    text-align: center;
+}
+#main-header .header-content h1{
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+    font-size: 50px;
+}
+#main-header .header-content h1 span{
+    color: #1ac056;
+    font-weight: 400;
+}
+
+#main-header .header-content h2{
+    font-weight: 200;
+    font-size: 30px;
+}
+#omnie .infoomnie {
+    padding: 10px;
+    text-align: center;
+}
+#omnie .infoomnie h1{
+    font-family: "Lato", sans-serif;
+    font-weight:300;
+    font-size: 30px;
+}
+#omnie .infoomnie h1 span{
+    color: #1ac056;
+    font-weight: 400;    
+}
+figure img{
+    width: 15%;
+    position: absolute;
+    top: 750px;
+    left: 300px;
+    border: 3px solid #fff;
+}
+#testizdjecie <p>{
+    float: left
+}
+
+
+
+    
