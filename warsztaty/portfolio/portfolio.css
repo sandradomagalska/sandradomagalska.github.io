@@ -158,7 +158,82 @@ color: white;
 #portfolio .mask-content-inner .fa-link:hover{
     color:#1ac056;
 }
+#contact {
+    background-color: #213b50; 
+     float: left;
+}
+#contact h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align:left;
+    font-weight: 300;
+    font-size: 30px;    
+}
+#contact h3 span{
+    color: #1ac056;
+    font-weight: 400; 
+}
+#contact .adress {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 2px;
+    font-weight:300;
+    font-size: 15px; 
+    padding: 0;
+    float: left;
+   
+}
+#contact h4 span{
+    color: #1ac056;
+    font-weight: 200; 
+}
+#contact .obrazki{
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
+#contact .formularz{
+    float: right;
+    display:block;
+    margin-right: 200px;
+    border: 0;
+}
+#contact .formularz input[type="submit"] {
+    background-color: limegreen;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    border: 10;
+    display: block;
+    text-align: right;
+    position: absolute;
+    top:0;
+    right: 0;
+
+}
+#contact .formularz input[type="text"]{
+    background-color: #4e708c;
+    height: 50px;
+    width: 600px;
+    border: none;
+}
+#contact .formularz textarea[name="wiadomość"]{
+    background-color: #4e708c;
+    height: 100px;
+    width: 600px;
+    display: block;
+    border: none;
+   
+}
+::placeholder{
+        color:white;
+    font-size: 1.0em;
+    }
+}
+footer{
+    background-color: #4e708c;
+}
 
 
     

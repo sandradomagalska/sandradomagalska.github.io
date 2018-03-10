@@ -1,0 +1,40 @@
+#rwd_container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+#rwd_container h1 {
+    font-size: 60px;
+}
+
+#rwd_container .bg_container {
+    height: 200px;
+    border: 2px solid #000;
+    background-image: url(img/lego.jpg);
+    background-repeat: no-repeat;
+}
+
+#rwd_container p {
+    font-size: 40px;
+    color: blueviolet;
+    
+}
+@media (max-width:600px) {
+    body {
+        background-color: #000;  
+    }
+    #rwd_container{
+        width: 95%;
+    }
+    #rwd_container h1 {
+        font-size: 18px;
+        color: #fff;
+    }
+    #rwd_container .bg_container{
+        background-image: url(img/lego1.jpg);
+    }
+    #rwd_container p {
+        color:#fff;
+        font-size: 12px;
+    }
+}
