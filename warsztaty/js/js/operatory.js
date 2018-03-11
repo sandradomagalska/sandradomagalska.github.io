@@ -47,13 +47,23 @@ liczba7 %= 2; //liczba7= liczba7%2;
 
 //operatory porowania
 
-var liczba8= "10";
-var liczba9= 10;
+//var liczba8= "10";
+//var liczba9= 10;
+//
+//if(liczba8===liczba9){
+//    console.log("Warunek spełniony, czyli true");
+//} else{
+//    console.log("Warunek nie spełniony, czyli false");
+//}
 
-if(liczba8===liczba9){
-    console.log("Warunek spełniony, czyli true");
+var liczba10= 20;
+var liczba11=4;
+var czyWiosna= "tak";
+
+if(liczba10 < liczba11 && czyWiosna == "tak") {
+    console.log("Warunek spełniony");
 } else{
-    console.log("Warunek nie spełniony, czyli false");
+    console.log("Warunek nie spełniony");
 }
 
 
