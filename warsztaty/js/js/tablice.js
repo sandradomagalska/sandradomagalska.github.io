@@ -47,3 +47,5 @@ console.log(imiona.indexOf ("Sandra"));
 
 
 
+
+
