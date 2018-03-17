@@ -1,0 +1,85 @@
+
+body{
+    background-color: #000;
+    color:#fff;
+    background-position: center;
+}
+
+div.odliczanie{
+    position: relative;
+    width:50vw;
+    height:50vh;
+    text-align: center;
+    margin-top:25vh;
+    margin-left:25vw;
+    font-size:200px;
+    font-weight: 300;
+}
+div.liczba{
+    position: fixed;
+    left:0;
+    right:0;
+}
+
+#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {
+    visibility: hidden;
+    animation: 1s start;
+    animation-fill-mode: forwards;
+}
+
+#dziewiec{
+    animation-delay: 1s;
+}
+#osiem{
+    animation-delay: 2s;
+}
+#siedem{
+    animation-delay: 3s;
+}
+#szesc{
+
+    animation-delay: 4s;
+}
+#piec{
+    animation: 1s start;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+#cztery{
+    animation-delay: 6s;
+}
+#trzy{
+
+    animation-delay: 7s;
+}
+#dwa{
+    animation-delay: 8s;
+}
+#jeden{
+    animation-delay: 9s;
+}
+#tekst{
+    animation-delay: 10s;
+    font-size:200px;
+}
+
+@keyframes start{
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+@keyframes finish{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }

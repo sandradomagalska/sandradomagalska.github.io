@@ -30,3 +30,4 @@ osoba2.pobierzInformacjeOsoby();
 var osoba3 = new Osoba("Kinga","Korycka", 24,52,170,"niebieskie");
 osoba3.przedstawSie();
 osoba3.pobierzInformacjeOsoby();
+
