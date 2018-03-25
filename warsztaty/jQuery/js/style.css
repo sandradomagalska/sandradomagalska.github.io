@@ -1,5 +1,54 @@
-.nowa_klasa {
-    font-size: 40px;
-    color:darkviolet;
-    
+html, body{
+    padding: 0;
+    margin:0;
+}
+
+#slider {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+#slider .slide-show{
+    position: absolute;
+    height:100%;
+    width: 400%;
+
+}
+#slider .single-slide .slide-show {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#slider .slide-show .single-slide img{
+    height: 100%;
+    width: 100%;
+}
+
+#slider .slide-show .single-slide .slide-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+    color: white;
+    font-size: 4em;
+}
+
+#slider .slider-arrows button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+#slider .prev-slide {
+    position: absolute;
+    left:5px;
+}
+#slider .next-slide {
+    position: absolute;
+    right:5px;
 }

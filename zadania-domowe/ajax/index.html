@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajax.css">
+</head>
+<body>
+    
+    <h1>Aktualny kurs Bitcoin do PLN</h1>
+    <div id="zakup">
+    <label for="kupno">Kupno</label>
+    <input type="number" name="liczba" id=kupno>
+    </div><br>
+    
+    <div id="zbycie">
+    <label for="sprzedaz">Sprzedaż</label>
+    <input type="number" name="liczba" id=sprzedaz>
+    </div><br>
+    <button onclick="pobierzDane(event)">Pobierz kurs BITCOIN</button>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="ajax-bitcoin.js"></script>
+    
+</body>
+</html>

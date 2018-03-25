@@ -1,0 +1,66 @@
+#kontener{
+    background-color: yellow;
+    height: auto ;
+    width: 400px ;
+    border: 1px solid ;
+    text-align: center;
+    padding:20px;
+    left:50%vw;
+}
+.buttonClear{
+    background-color: aqua;
+        border-bottom: deepskyblue solid ;
+        border-radius: 5px;
+    font-size: 32px ;
+    color: white;
+    width: 140px ;
+    height: 70px;
+}
+.buttonNumber{
+    background-color: black ;
+      border-bottom: grey solid ;
+        border-radius: 5px;
+    font-size: 32px ;
+    color: white;
+    width: 70px ;
+    height: 70px;
+}
+.buttonZero{
+    background-color: black ;
+        border-bottom: grey solid ;
+        border-radius: 5px;
+    font-size: 32px ;
+    color: white;
+    width: 140px ;
+    height: 70px;
+}
+.buttonCount{
+    background-color: grey ;
+        border-bottom: lightgrey solid ;
+        border-radius: 5px;
+    font-size: 32px ;
+    color:white;
+    width: 70px ;
+    height: 70px;
+}
+.buttonResult{
+    background-color: lightgreen ;
+        border-bottom: darkgrey solid ;
+        border-radius: 5px;
+    font-size: 32px ;
+    color:white;
+    width: 70px ;
+    height: 70px;
+}
+.buttonNumberLook:hover{
+    background-color: lightgrey;
+        border-color: grey;  
+}
+
+.fieldLook{
+    font-size: 25px;
+    height: 70px;
+    background-color: grey;
+    color: white;
+}
+
